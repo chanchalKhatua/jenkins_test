@@ -3,7 +3,7 @@ pipeline {
     stages {
        stage("Clone respository") {
           steps {
-              git branch: "jenkins", url: "https://github.com/chanchalKhatua/jenkins_test.git"
+              git branch: "newjenkinsbranch", url: "https://github.com/chanchalKhatua/jenkins_test.git"
                    }
                           }
        stage('Run Script') {
